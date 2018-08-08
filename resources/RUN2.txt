@@ -1,0 +1,2019 @@
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Test file: resources/tunes.txt
+
+NOTES:  Testing the LazySearchTree by adding and removing song items from tunes
+--------------------------------------------------------------------------------------------------------
+
+Test file: resources/tunes.txt
+
+
+Update at line #1: add,Solo
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+
+at line #1: add,Solo
+First item:  ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+Last item:  ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+
+Update at line #2: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+
+at line #2: add,Shadows - Original
+First item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+Last item:  ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+
+
+
+Update at line #3: add,Tom's Diner
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #3: add,Tom's Diner
+First item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #4: add,Take Me Away
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #4: add,Take Me Away
+First item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #5: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #5: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #6: add,Nuvole Bianche
+"hard" number of unique items (i.e. mSizeHard) = 6
+"soft" number of unique items (i.e. mSize) = 6
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #6: add,Nuvole Bianche
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #7: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 7
+"soft" number of unique items (i.e. mSize) = 7
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #7: add,Luka
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #8: add,Stoned
+"hard" number of unique items (i.e. mSizeHard) = 8
+"soft" number of unique items (i.e. mSize) = 8
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #8: add,Stoned
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #9: add,Get Happy
+"hard" number of unique items (i.e. mSizeHard) = 9
+"soft" number of unique items (i.e. mSize) = 9
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #9: add,Get Happy
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #10: add,We Belong
+"hard" number of unique items (i.e. mSizeHard) = 10
+"soft" number of unique items (i.e. mSize) = 10
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #10: add,We Belong
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #11: add,Let's Dance
+"hard" number of unique items (i.e. mSizeHard) = 11
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #11: add,Let's Dance
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #12: add,Oh What a Feeling
+"hard" number of unique items (i.e. mSizeHard) = 12
+"soft" number of unique items (i.e. mSize) = 12
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #12: add,Oh What a Feeling
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #13: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #13: buy,Stairway To The Stars
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #14: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #14: buy,Stairway To The Stars
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #15: add,Separate Ways (Worlds Apart)
+"hard" number of unique items (i.e. mSizeHard) = 13
+"soft" number of unique items (i.e. mSize) = 13
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #15: add,Separate Ways (Worlds Apart)
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #16: add,Road Home
+"hard" number of unique items (i.e. mSizeHard) = 14
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #16: add,Road Home
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #17: add,Traffic
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #17: add,Traffic
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #18: add,Solo
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 15
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #18: add,Solo
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #19: buy,Solo
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #19: buy,Solo
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #20: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #20: add,Luka
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #21: add,Stoned
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 14
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #21: add,Stoned
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #22: buy,Tom's Diner
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 13
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #22: buy,Tom's Diner
+First item:  ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #23: buy,Get Happy
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 12
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #23: buy,Get Happy
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #24: buy,Let's Dance
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #24: buy,Let's Dance
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #25: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 11
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #25: add,Shadows - Original
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #26: buy,Road Home
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 10
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #26: buy,Road Home
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #27: buy,Road Home
+Warning: Item Road Home is out of stock.
+
+at line #27: buy,Road Home
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #28: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #28: buy,Stairway To The Stars
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #29: buy,Separate Ways (Worlds Apart)
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 9
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #29: buy,Separate Ways (Worlds Apart)
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #30: buy,Solo
+Warning: Item Solo is out of stock.
+
+at line #30: buy,Solo
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+
+
+Final state of tunes:
+"hard" number of unique items (i.e. mSizeHard) = 15
+"soft" number of unique items (i.e. mSize) = 9
+
+Testing traversing "hard" tunes:
+ ♪  Get Happy, 0:6:36, Jean Knight, classic pop and rock: 0
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Solo, 0:4:41, Working Week, classic pop and rock: 0
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stoned, 0:11:47, Dido, classic pop and rock: 1
+ ♪  Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Done with FoothillTunesStore.
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Test file: resources/tunes_removal_before_adding.txt
+
+NOTES:  Testing buying song item before adding any songs.
+--------------------------------------------------------------------------------------------------------
+
+Test file: resources/tunes_removal_before_adding.txt
+
+Warning: Unable to fulfill request: at line #1: buy,Get Happy
+Warning: Item Get Happy is out of stock.
+
+at line #1: buy,Get Happy
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #2: buy,Let's Dance
+Warning: Item Let's Dance is out of stock.
+
+at line #2: buy,Let's Dance
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #3: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #3: buy,Stairway To The Stars
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+Update at line #4: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #4: add,Shadows - Original
+First item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #5: add,Let's Dance
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #5: add,Let's Dance
+First item:  ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #6: add,Oh What a Feeling
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #6: add,Oh What a Feeling
+First item:  ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #7: buy,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+
+
+
+at line #7: buy,Shadows - Original
+First item:  ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 1
+
+Last item:  ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+
+
+
+Update at line #8: buy,Let's Dance
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+
+
+
+at line #8: buy,Let's Dance
+First item:  ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+
+Last item:  ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 1
+
+
+
+Update at line #9: buy,Oh What a Feeling
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+
+
+
+at line #9: buy,Oh What a Feeling
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #10: buy,Shadows - Original
+Warning: Item Shadows - Original is out of stock.
+
+at line #10: buy,Shadows - Original
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #11: buy,Let's Dance
+Warning: Item Let's Dance is out of stock.
+
+at line #11: buy,Let's Dance
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #12: buy,Oh What a Feeling
+Warning: Item Oh What a Feeling is out of stock.
+
+at line #12: buy,Oh What a Feeling
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+
+
+Final state of tunes:
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+ ♪  Let's Dance, 0:2:45, Jake Shimabukuro, folk: 0
+ ♪  Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+
+
+
+Done with FoothillTunesStore.
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Test file: resources/tunes_test3.txt
+
+NOTES:  Testing for removal of root node from LazySearchTree
+--------------------------------------------------------------------------------------------------------
+
+Test file: resources/tunes_test3.txt
+
+
+Update at line #1: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #1: add,Shadows - Original
+First item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #2: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #2: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #3: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #3: add,Luka
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #4: add,Stairway To The Stars
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #4: add,Stairway To The Stars
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #5: buy,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #5: buy,Shadows - Original
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #6: add,We Belong
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #6: add,We Belong
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #7: buy,Traffic
+Warning: Item Traffic is out of stock.
+
+at line #7: buy,Traffic
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Update at line #8: buy,Stairway To The Stars
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 0
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+at line #8: buy,Stairway To The Stars
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #9: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #9: buy,Stairway To The Stars
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #10: buy,Stairway To The Stars
+Warning: Item Stairway To The Stars is out of stock.
+
+at line #10: buy,Stairway To The Stars
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Warning: Unable to fulfill request: at line #11: buy,Traffic
+Warning: Item Traffic is out of stock.
+
+at line #11: buy,Traffic
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+
+
+Final state of tunes:
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock: 0
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  We Belong, 0:3:43, Pat Benatar, classic pop and rock: 1
+
+
+
+Done with FoothillTunesStore.
+
+
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+Test file: resources/tunes_test4.txt
+
+NOTES:  Testing adding songs and then buying more songs than added
+--------------------------------------------------------------------------------------------------------
+
+Test file: resources/tunes_test4.txt
+
+
+Update at line #1: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 1
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+
+
+at line #1: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+
+
+Update at line #2: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 2
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #2: add,Shadows - Original
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #3: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 3
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #3: add,Luka
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #4: add,Traffic
+"hard" number of unique items (i.e. mSizeHard) = 4
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+at line #4: add,Traffic
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+Update at line #5: add,Road Home
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 5
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+at line #5: add,Road Home
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+Update at line #6: buy,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+at line #6: buy,Here With Me
+First item:  ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+Last item:  ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+Update at line #7: buy,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+at line #7: buy,Shadows - Original
+First item:  ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+Last item:  ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+Update at line #8: buy,Luka
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+Testing traversing "soft" tunes:
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+at line #8: buy,Luka
+First item:  ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+
+Last item:  ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 1
+
+
+
+Update at line #9: buy,Traffic
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+
+
+
+at line #9: buy,Traffic
+First item:  ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+
+Last item:  ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 1
+
+
+
+Update at line #10: buy,Road Home
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+
+
+
+at line #10: buy,Road Home
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #11: buy,Here With Me
+Warning: Item Here With Me is out of stock.
+
+at line #11: buy,Here With Me
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #12: buy,Shadows - Original
+Warning: Item Shadows - Original is out of stock.
+
+at line #12: buy,Shadows - Original
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+Update at line #13: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+
+
+at line #13: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+
+
+Update at line #14: add,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #14: add,Shadows - Original
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #15: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #15: add,Luka
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #16: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #16: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #17: add,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #17: add,Here With Me
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #18: add,Luka
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #18: add,Luka
+First item:  ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #19: buy,Here With Me
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+at line #19: buy,Here With Me
+First item:  ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+Last item:  ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 1
+
+
+
+Update at line #20: buy,Shadows - Original
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+
+
+at line #20: buy,Shadows - Original
+First item:  ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+Last item:  ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 1
+
+
+
+Update at line #21: buy,Luka
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+
+
+
+at line #21: buy,Luka
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+Warning: Unable to fulfill request: at line #22: buy,Luka
+Warning: Item Luka is out of stock.
+
+at line #22: buy,Luka
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+
+
+Final state of tunes:
+"hard" number of unique items (i.e. mSizeHard) = 5
+"soft" number of unique items (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+ ♪  Here With Me, 0:4:41, Dido, classic pop and rock: 0
+ ♪  Luka, 0:3:52, Suzanne Vega, classic pop and rock: 0
+ ♪  Road Home, 0:5:8, The String Cheese Incident, folk: 0
+ ♪  Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock: 0
+ ♪  Traffic, 0:4:5, Dawn Landes, classic pop and rock: 0
+
+
+Testing traversing "soft" tunes:
+
+
+
+Done with FoothillTunesStore.
